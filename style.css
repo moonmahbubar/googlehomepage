@@ -91,7 +91,8 @@ ul.rightnavtext li {
     height: 44px;
     margin: 0 auto;
     border-radius: 2px;
-    border: 1px lightgray solid;
+    border: 1px rgb(233, 233, 233) solid;
+    box-shadow: 0 2px 5px #DDDDDD;
 }
 
 .searchbox {
@@ -100,6 +101,23 @@ ul.rightnavtext li {
     height: 39px;
     padding: 5px 9px 0px 16px;
     display: block;
+    float:left;
+}
+
+.voicesearch {
+    width: auto;
+    margin-left: 503px;
+    height:44px;
+}
+
+.voicesearch img {
+    position: relative;
+    top: 10px;
+    width: 15px;
+    height: auto;
+    object-fit: contain;
+    display:block;
+    margin:auto;
 }
 
 form.search input {

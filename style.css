@@ -244,4 +244,39 @@ li img.profile {
     float: right;
 }
 
+.lb {
+    position: absolute;
+    bottom:0;
+    height: 40px;
+    background-color: #f2f2f2;
+    width: 100%;
+    border-top: 1px rgba(128, 128, 128, 0.205) solid;
+}
+
+.bottomnavleft {
+    font-size: 12px;
+    position: relative;
+    top: 7px;
+    float: left;
+    width: 200px;
+}
+
+
+.bottomnavright {
+    font-size: 12px;
+    float: right;
+    position: relative;
+    top:6px;
+    right: 3px;
+    color: #000;
+    opacity: 0.75;
+}
+
+.bottomnavright li {
+    padding-left: 15px;
+}
+
+
+
+
 
